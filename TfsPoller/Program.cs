@@ -33,16 +33,6 @@ namespace TfsPoller
                 x.SetServiceName("TfsToSlack");
             });
 
-
-            ////changeDetector.CheckForChanges();
-
-            ////var timer = new Timer(state => changeDetector.CheckForChanges(), null, new TimeSpan(0, 0, 0), new TimeSpan(0, 0, 2, 0));
-
-            //var state = new BuildState("Bygg_CI_MASTER", BuildStatus.Succeeded, new DateTime(2010, 10, 10, 11, 42, 32), "abc", "Mads Nyborg", new TestStatistics(1, 0, 2));
-
-            //changeNotifier.Notify(state);
-
-            //Console.ReadKey();
         }
     }
 }
