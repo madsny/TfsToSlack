@@ -14,3 +14,7 @@ Polling build results from TFS and pushing them to slack via webhook
 * slack.failedchannel (default #general)
 * slack.failedicon (default :name_badge:)
 * slack.defaulticon (default :white_check_mark:)
+
+##FAQ
+* Why are there so many package dependencies?
+  * You know...
